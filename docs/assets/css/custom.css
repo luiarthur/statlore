@@ -1,0 +1,41 @@
+:root {
+  --main-font-family: 'Fira Sans', sans-serif;
+  --main-font-weight: 300;
+  --main-bold-font-weight: 400;
+  --main-font-size: 20px;
+}
+div#disqus_thread {
+  margin-top: 100px;
+}
+/* font stuff */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: var(--main-font-family);
+  color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--main-bold-font-weight);
+  padding-bottom: calc(var(--main-font-size) * 0.4);
+  padding-top: calc(var(--main-font-size) * 0.4);
+}
+h1 { font-size: calc(var(--main-font-size) / .50); }
+h2 { font-size: calc(var(--main-font-size) / .60); }
+h3 { font-size: calc(var(--main-font-size) / .70); }
+h4 { font-size: calc(var(--main-font-size) / .80); }
+h5 { font-size: calc(var(--main-font-size) / .90); }
+h6 { font-size: calc(var(--main-font-size) / .95); }
+strong { font-weight: var(--main-bold-font-weight); }
+body {
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+}
+footer {
+  font-size: calc(var(--main-font-size) * 0.7);
+}
+pre.highlight {
+  padding: calc(var(--main-font-size) * 0.4);
+  border-radius: calc(var(--main-font-size) * 0.4);
+}
+code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
