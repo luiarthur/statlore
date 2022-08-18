@@ -10,6 +10,13 @@ const macros = {
     "\\bc": "\\left\\{#1\\right\\}",
     "\\abs": "\\left|#1\\right|",
     "\\MvNormal": "\\text{MvNormal}",
+    "\\Normal": "\\text{Normal}",
+    "\\InverseGamma": "\\text{InverseGamma}",
+    "\\GammaDist": "\\text{Gamma}",
+    "\\vec": "\\text{vec}",
+    "\\flat": "\\text{flat}",
+    "\\E": "\\text{E}",
+    "\\Var": "\\text{Var}",
 }
 
 $(document).ready(() => {

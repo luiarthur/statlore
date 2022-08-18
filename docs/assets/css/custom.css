@@ -1,7 +1,14 @@
 :root {
+  /* Fira.
   --main-font-family: 'Fira Sans', sans-serif;
   --main-font-weight: 300;
   --main-bold-font-weight: 400;
+  */
+  /* Sans */
+  --main-font-family: sans-serif;
+  --main-font-weight: 400;
+  --main-bold-font-weight: 700;
+  /* */
   --main-font-size: 20px;
 }
 div#disqus_thread {
@@ -38,4 +45,11 @@ pre.highlight {
 code {
   color: #c7254e;
   background-color: #f9f2f4;
+}
+table, th, td {
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.1px;
+  padding: calc(var(--main-font-size) * 0.3);
 }

@@ -1,9 +1,10 @@
 ---
 layout: page
+comments: false
 ---
 
 # Statistics Quick Reference
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         &raquo; {{ post.title }}
