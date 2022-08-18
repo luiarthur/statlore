@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Topics
+# Statistics Quick Reference
 {% for post in site.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
