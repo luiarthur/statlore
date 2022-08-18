@@ -1,9 +1,9 @@
 # Site settings
 title: "StatLore"
 # email: myemail@gmail.com
-description: "Put a description here"
-# github_repo: https://github.com/<username>/<name-of-repo>
-# google_analytics: <put google analytics seo tag here>
+description: "Quick reference for "
+github_repo: https://github.com/luiarthur/statlore
+google_analytics: G-RJBL4JRZQ8
 
 plugins:
   # search engine optimization
