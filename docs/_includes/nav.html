@@ -1,8 +1,29 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+<nav class="navbar navbar-dark bg-dark navbar-custom">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <!--a class="navbar-brand" href="{{ site.github_repo }}">{{ site.title }}</a-->
       <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#pageNavBar"
+        aria-controls="pageNavBar" aria-expanded="false" aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="pageNavBar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          {% for page in site.posts reversed %}
+          {% if page.title %}
+          <li class="nav-item">
+              <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">
+                &raquo; {{ page.title }}
+              </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
+    <!-- /.container -->
 </nav>
