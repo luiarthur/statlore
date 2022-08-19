@@ -16,14 +16,19 @@
   font-family: var(--main-font-family);
   font-weight: var(--main-font-weight);
 }
-.katex .accent-body .mord, .katex .mrel, .katex .mbin, .katex .mopen,
-.katex .mclose {
+.katex .accent-body .mord, .katex .mrel, .katex .mbin,
+/* .katex .mopen, .katex .mclose */
+{
   font-family: 'Katex_Main';
 }
 .katex .mord.boldsymbol, .katex .mathbf {
   font-family: var(--main-font-family);
   font-weight: var(--main-bold-font-weight);
   font-style: italic;
+}
+.katex .mopen, .katex .mclose {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
 }
 
 /* .mop, .mord { } */
