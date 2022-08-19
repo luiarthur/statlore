@@ -1,8 +1,7 @@
 # Site settings
 title: "StatLore"
 # email: myemail@gmail.com
-description: "Quick reference for "
-github_repo: https://github.com/luiarthur/statlore
+description: "Quick statistics reference"
 google_analytics: G-RJBL4JRZQ8
 
 plugins:
