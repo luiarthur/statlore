@@ -1,12 +1,13 @@
 :root {
-  /* Sans */
+  /* Sans
   --main-font-family: sans-serif;
   --main-font-weight: 400;
-  --main-bold-font-weight: 700;
-  /* Fira.
+  --main-bold-font-weight: 700; */
+  /* Fira.*/
   --main-font-family: 'Fira Sans', sans-serif;
   --main-font-weight: 300;
-  --main-bold-font-weight: 400; */
+  --main-bold-font-weight: 400;
+  /* Global font size */
   --main-font-size: 20px;
 }
 div#disqus_thread {
