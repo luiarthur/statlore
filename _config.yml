@@ -13,6 +13,7 @@ plugins:
 # Build settings
 markdown: kramdown
 permalink: /:title
+repository: luiarthur/statlore
 
 defaults:
   -
