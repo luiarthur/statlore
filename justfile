@@ -7,14 +7,14 @@ clean:
 	rm -rf _site
 
 serve:
-	bundle exec jekyll serve --port {{ PORT }} --incremental \
+	conda run -n ruby bundle exec jekyll serve --port {{ PORT }} --incremental \
 		--livereload --livereload-port {{ LIVE_RELOAD_PORT }}
 
 clean-serve: clean serve
 
 update-gems:
 	rm Gemfile.lock
-	bundle install --path ~/.gem
+	conda run -n ruby bundle install
 
 install:
-	bundle install --path ~/.gem
+	conda run -n ruby bundle install
